@@ -1,0 +1,131 @@
+.container {
+    margin: 100px;
+    margin-top: 30px;
+}
+.container > img {
+    max-width: 130px;
+    height: auto;
+    float: left;
+}
+.container > h1 {
+    color: #6d9f71;
+    font-size: 52px;
+    font-family: Pinyon Script;
+    padding-left: 140px;
+    padding-top: 20px;
+}
+.container > h3 {
+    color: #e27396;
+    font-size: 18px;
+    font-family: Garamond;
+    padding-left: 190px;
+    margin-top: -49px;
+}
+
+/*paragraphs*/
+.paragraphs {
+    text-indent: 30px;
+    padding-top: 1px;
+    margin-left: 140px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 130%;
+}
+.paragraphs2 {
+    text-indent: 30px;
+    padding-top: -10px;
+    margin-left: 140px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 130%;
+}
+
+/* highlights */
+.highlight1 {
+    background-color: #e27396;
+    color: #f5ee9a;
+}
+.highlight2 {
+    background-color: #6d9f71;
+    color: #f5ee9a;
+}
+.highlight3 {
+    background-color: #e27396;
+    color: #f5ee9a;
+}
+.highlight4 {
+    background-color: #6d9f71;
+    color: #f5ee9a;
+}
+.highlight5 {
+    background-color: #e27396;
+    color: #f5ee9a;
+}
+.highlight6 {
+    color: #6d9f71;
+    text-decoration: underline
+}
+.highlight7 {
+    background-color: #6d9f71;
+    color: #f5ee9a;
+}
+.highlight8 {
+    font-style: italic;
+    color: #e27396;
+}
+.highlight9 {
+    background-color: #6d9f71;
+    color:#f5ee9a;
+}
+.highlight10 {
+    font-style: italic;
+    color:#6d9f71;
+}
+.highlight11 {
+    background-color: #e27396;
+    color:#f5ee9a;
+}
+.highlight12 {
+    color: #e27396;
+    text-decoration: underline
+}
+
+.boxs {
+    display: flex;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 22px;
+    column-count: 1;
+    background-color: rgb(239, 239, 239);
+}
+.footer > section > p {
+    color: #e27396;
+    font-family: Garamond;
+   margin-top: -27px;
+   margin-bottom: 8px;
+   line-height: 130%;
+}
+.footer > section > h3 {
+    color: #6d9f71;
+    font-family: Pinyon Script;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-right: 300px;
+}
+.footer > section > nav > h3 {
+    color: #e27396;
+    font-family: Pinyon Script;
+    font-size: 30px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+.footer > section > nav > a:link {
+    color: #6d9f71;
+    font-family: Garamond;
+}
